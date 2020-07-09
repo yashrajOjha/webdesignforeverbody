@@ -1,0 +1,119 @@
+/*This is the CSS file for Ultimate Frisbee html file*/
+/*works good on a laptop screen*/
+/*table changes from line 74*/
+/*header with a new bg-color and image*/
+header {
+         background-color:#b6eb7a;
+         background-image: url("../images/flywheel.jpg");
+         padding: 40px;
+         background-repeat: no-repeat;
+         background-size: 100%;
+         padding-top:20px; 
+}
+/*Heading 1 with a new color and size*/
+h1 {
+	color:#f4f6ff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 200%;
+}
+/*body with padding and margin*/
+body
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+/*This will align navigation links in the center of header*/
+nav {
+	text-align: center;
+}
+/*next two set of rules is used to style the nav links with padding , color and a different style for active*/
+nav>a 
+{ 
+
+	background-color: #eeeeee;
+	color: #393e46;
+	text-decoration: none;
+	padding: 15px;
+	padding-right:50px;
+	padding-left: 50px;  
+	border-radius: 7px;
+	margin:5%;
+}
+a.active {
+	background-color: #092532;
+	color: #e4f9ff;
+	
+}
+/*1-left section containing images*/
+aside.left {
+	display: inline-block;
+	width: 20%;
+	background-color: #b6eb7a;
+	padding: 5px;
+}
+/*for the image*/
+img {
+	display:block;
+	border: 2px solid #07031a;
+	height: 80%;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left:auto;
+	margin-right: auto;
+}
+/*2-right section containing text messages*/
+section.right {
+	display: inline-block;
+	float: right;
+	width: 79%;
+
+}
+/*table changes applies for table , heading and table-data*/
+table , th ,td {
+	font-family:sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+	color: #07031a;
+	border: 2px solid #f9f9f9;
+	padding: 15px;
+}
+table {
+	border-collapse: collapse;
+	margin-left:auto;
+	margin-right: auto; 
+	width: 75%;
+}
+td {
+	line-height: 75%;
+	font-variant: small-caps;
+}
+/*styling for heading*/
+th {
+	background-image: linear-gradient(to bottom, rgba(69, 179, 224,0), rgba(69, 179, 224,1));
+    background-image: -o-linear-gradient(to bottom, rgba(69, 179, 224,0), rgba(69, 179, 224,1));
+    background-image: -moz-linear-gradient(to bottom, rgba(69, 179, 224,0), rgba(69, 179, 224,1));
+    background-image: -webkit-linear-gradient(to bottom, rgba(69, 179, 224,0), rgba(69, 179, 224,1));
+	color: #f5f5f5;
+	text-shadow: 2px 2px #000000;
+	border-bottom: 10px solid #f9f9f9;
+	opacity: 1;
+	border-radius: 2px 2px 0px 0px;
+}
+
+/*table row has a lighter shade of blue*/
+tr,td{
+	background-color: #87dfd6;
+	opacity: 0.7;
+}
+tr:hover {
+	opacity: 1;
+}
+/*firsr column is left aligned , second and third column center aligned*/
+table td:first-child {
+	text-align: left;
+
+}
+table td {
+	text-align: center;
+}

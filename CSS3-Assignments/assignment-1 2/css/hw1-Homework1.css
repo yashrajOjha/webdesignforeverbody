@@ -1,0 +1,26 @@
+/*This is the CSS file for Ultimate Frisbee html file*/
+header {
+  background-color: #EFEE9D;
+}
+h1 {
+	color:#D92027;
+	text-transform: uppercase;
+	text-align: center;
+}
+a 
+{
+	color: #FF5200;
+	background-color: #FFF3CD;
+}
+section {
+	background-color: #F1D1D1;
+}
+h2 
+{
+	color:#9A1F40;
+	text-transform: uppercase;
+}
+/*to remove the images completely*/
+img {
+   display: none;
+}
